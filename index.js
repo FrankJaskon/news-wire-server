@@ -22,7 +22,8 @@ server.post('/login', (req, res) => {
 		if (userFromBd) {
 			return res.json({
 				id: userFromBd.id,
-				username: userFromBd.username
+				username: userFromBd.username,
+				avatar: userFromBd.avatar
 			})
 		}
 

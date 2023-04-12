@@ -1,14 +1,14 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "username": "admin",
       "password": "123",
       "role": "ADMIN",
       "avatar": "https://teleprogramma.pro/sites/default/files/nodes/node_436422_1653684561.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "username": "user",
       "password": "123",
       "role": "USER",
@@ -17,7 +17,7 @@
   ],
   "profiles": [
     {
-      "id": "1",
+      "id": 1,
       "firstname": "Roman",
       "lastname": "Savko",
       "age": 27,
@@ -28,7 +28,7 @@
       "avatar": "https://teleprogramma.pro/sites/default/files/nodes/node_436422_1653684561.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "firstname": "Somebody",
       "lastname": "Else",
       "age": 10,
@@ -41,8 +41,8 @@
   ],
   "articles": [
     {
-      "id": "1",
-      "profileId": "1",
+      "id": 1,
+      "profileId": 1,
       "title": "Javascript news",
       "subtitle": "Що нового у JS у 2022 році?",
       "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
@@ -53,7 +53,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -63,12 +63,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -77,18 +77,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -97,13 +97,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -113,8 +113,8 @@
       ]
     },
     {
-      "id": "2",
-      "profileId": "2",
+      "id": 2,
+      "profileId": 2,
       "title": "What is Python Programming?",
       "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
       "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
@@ -125,7 +125,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -135,12 +135,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -149,18 +149,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -169,13 +169,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -185,8 +185,8 @@
       ]
     },
     {
-      "id": "3",
-      "profileId": "1",
+      "id": 3,
+      "profileId": 1,
       "title": "Complete List of Major Pros & Cons of DevOps Implementation",
       "subtitle": "How to do DevOps when the organization is not?",
       "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
@@ -197,7 +197,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -207,12 +207,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -221,18 +221,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -241,13 +241,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -257,8 +257,8 @@
       ]
     },
     {
-      "id": "4",
-      "profileId": "1",
+      "id": 4,
+      "profileId": 1,
       "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
       "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
       "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
@@ -269,7 +269,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -279,12 +279,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -293,18 +293,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -313,13 +313,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -329,8 +329,8 @@
       ]
     },
     {
-      "id": "5",
-      "profileId": "2",
+      "id": 5,
+      "profileId": 2,
       "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
@@ -342,7 +342,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -352,12 +352,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -366,18 +366,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -386,13 +386,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -402,8 +402,8 @@
       ]
     },
     {
-      "id": "6",
-      "profileId": "2",
+      "id": 6,
+      "profileId": 2,
       "title": "Javascript news",
       "subtitle": "Що нового у JS у 2022 році?",
       "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
@@ -414,7 +414,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -424,12 +424,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -438,18 +438,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -458,13 +458,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -474,370 +474,8 @@
       ]
     },
     {
-      "id": "7",
-      "profileId": "1",
-      "title": "What is Python Programming?",
-      "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
-      "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
-      "views": "2422",
-      "createdAt": "24.02.2022",
-      "type": [
-        "IT",
-        "SCIENCE"
-      ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
-            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "profileId": "1",
-      "title": "Complete List of Major Pros & Cons of DevOps Implementation",
-      "subtitle": "How to do DevOps when the organization is not?",
-      "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
-      "views": "12",
-      "createdAt": "26.04.2022",
-      "type": [
-        "ECONOMIC"
-      ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
-            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "9",
-      "profileId": "2",
-      "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
-      "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
-      "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
-      "views": "1422",
-      "createdAt": "16.02.2022",
-      "type": [
-        "IT"
-      ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
-            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "10",
-      "profileId": "1",
-      "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
-      "subtitle": "Introduction of Assembler",
-      "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
-      "views": "5022",
-      "createdAt": "26.02.2023",
-      "type": [
-        "IT",
-        "ECONOMIC"
-      ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
-            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "11",
-      "profileId": "2",
-      "title": "Javascript news",
-      "subtitle": "Що нового у JS у 2022 році?",
-      "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
-      "views": "1022",
-      "createdAt": "26.02.2022",
-      "type": [
-        "IT"
-      ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
-            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "12",
-      "profileId": "1",
+      "id": 7,
+      "profileId": 1,
       "title": "What is Python Programming?",
       "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
       "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
@@ -849,7 +487,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -859,12 +497,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -873,18 +511,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -893,13 +531,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -909,8 +547,8 @@
       ]
     },
     {
-      "id": "13",
-      "profileId": "2",
+      "id": 8,
+      "profileId": 1,
       "title": "Complete List of Major Pros & Cons of DevOps Implementation",
       "subtitle": "How to do DevOps when the organization is not?",
       "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
@@ -921,7 +559,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -931,12 +569,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -945,18 +583,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -965,13 +603,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -981,8 +619,8 @@
       ]
     },
     {
-      "id": "14",
-      "profileId": "2",
+      "id": 9,
+      "profileId": 2,
       "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
       "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
       "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
@@ -993,7 +631,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1003,12 +641,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1017,18 +655,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1037,13 +675,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1053,8 +691,8 @@
       ]
     },
     {
-      "id": "16",
-      "profileId": "1",
+      "id": 10,
+      "profileId": 1,
       "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
@@ -1066,7 +704,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1076,12 +714,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1090,18 +728,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1110,13 +748,13 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1126,8 +764,297 @@
       ]
     },
     {
-      "id": "15",
-      "profileId": "1",
+      "id": 11,
+      "profileId": 2,
+      "title": "Javascript news",
+      "subtitle": "Що нового у JS у 2022 році?",
+      "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
+      "views": "1022",
+      "createdAt": "26.02.2022",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": 1,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": 5,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 3,
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": 7,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
+            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 9,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "profileId": 1,
+      "title": "What is Python Programming?",
+      "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
+      "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
+      "views": "2422",
+      "createdAt": "24.02.2022",
+      "type": [
+        "IT",
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": 1,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": 5,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 3,
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": 7,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
+            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 9,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "profileId": 2,
+      "title": "Complete List of Major Pros & Cons of DevOps Implementation",
+      "subtitle": "How to do DevOps when the organization is not?",
+      "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
+      "views": "12",
+      "createdAt": "26.04.2022",
+      "type": [
+        "ECONOMIC"
+      ],
+      "blocks": [
+        {
+          "id": 1,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": 5,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 3,
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": 7,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
+            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 9,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "profileId": 2,
+      "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
+      "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
+      "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
+      "views": "1422",
+      "createdAt": "16.02.2022",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": 1,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": 5,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 3,
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": 7,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
+            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 9,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "profileId": 1,
       "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
@@ -1139,7 +1066,7 @@
       ],
       "blocks": [
         {
-          "id": "1",
+          "id": 1,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1149,12 +1076,12 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "type": "CODE",
           "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
         },
         {
-          "id": "5",
+          "id": 5,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1163,18 +1090,18 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "3",
+          "id": 3,
           "type": "CODE",
           "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
         },
         {
-          "id": "7",
+          "id": 7,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1183,13 +1110,86 @@
           ]
         },
         {
-          "id": "8",
+          "id": 8,
           "type": "IMAGE",
           "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
           "title": "Рисунок 1 - скріншот сайту"
         },
         {
-          "id": "9",
+          "id": 9,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "profileId": 1,
+      "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
+      "subtitle": "Introduction of Assembler",
+      "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
+      "views": "5022",
+      "createdAt": "26.02.2023",
+      "type": [
+        "IT",
+        "ECONOMIC"
+      ],
+      "blocks": [
+        {
+          "id": 1,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": 5,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
+            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 3,
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": 7,
+          "type": "TEXT",
+          "title": "Заголовок цього блоку",
+          "paragraphs": [
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
+            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скріншот сайту"
+        },
+        {
+          "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
@@ -1201,58 +1201,82 @@
   ],
   "comments": [
     {
-      "id": "1",
+      "id": 1,
       "text": "some comment",
       "articleId": 1,
-      "profileId": "1"
+      "profileId": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "text": "some comment 2",
       "articleId": 1,
-      "profileId": "1"
+      "profileId": 1
     },
     {
-      "id": "3",
+      "id": 3,
       "text": "some comment 3",
       "articleId": 1,
-      "profileId": "1"
+      "profileId": 1
     },
     {
-      "profileId": "2",
+      "profileId": 2,
       "articleId": 1,
       "text": "New comment",
-      "id": "4"
+      "id": 4
     },
     {
-      "profileId": "1",
+      "profileId": 1,
       "articleId": 2,
       "text": "Some new comment",
-      "id": "5"
+      "id": 5
     },
     {
-      "profileId": "1",
+      "profileId": 1,
       "articleId": 3,
       "text": "New comment as well",
-      "id": "6"
+      "id": 6
+    },
+    {
+      "profileId": 1,
+      "articleId": 3,
+      "text": "I've decided to add another one",
+      "id": 7
+    },
+    {
+      "profileId": 1,
+      "articleId": 2,
+      "text": "Checking if everything is fine",
+      "id": 8
+    },
+    {
+      "profileId": 2,
+      "articleId": 2,
+      "text": "It's the most important comment",
+      "id": 9
+    },
+    {
+      "profileId": 1,
+      "articleId": 1,
+      "text": "a sfas fasf saf",
+      "id": 10
+    },
+    {
+      "profileId": "1",
+      "articleId": 1,
+      "text": "And I have to leave this comment as well",
+      "id": 11
     },
     {
       "profileId": "1",
       "articleId": 3,
-      "text": "I've decided to add another one",
-      "id": "7"
+      "text": "Та це дуже просто, ось вам мій коментар",
+      "id": 12
     },
     {
-      "profileId": "1",
+      "profileId": 2,
       "articleId": 2,
-      "text": "Checking if everything is fine",
-      "id": "8"
-    },
-    {
-      "profileId": "2",
-      "articleId": 2,
-      "text": "It's the most important comment",
-      "id": "9"
+      "text": "Tets it it works",
+      "id": 13
     }
   ]
 }
