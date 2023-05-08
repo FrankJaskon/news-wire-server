@@ -27,6 +27,15 @@
         "MANAGER"
       ],
       "avatar": "https://assets.gq.ru/photos/5d9f6dc38fb7700009bac347/16:9/pass/fc161be536fad79d1dcac83fc94453b2.jpg"
+    },
+    {
+      "id": 38724839,
+      "username": "newUser",
+      "password": "123",
+      "avatar": "https://ae01.alicdn.com/kf/Saef1027b14774fc29d365dbe395b1d7df/Rick-and-Morty-n-20.jpg_Q90.jpg_.webp",
+      "roles": [
+        "USER"
+      ]
     }
   ],
   "profiles": [
@@ -62,6 +71,16 @@
       "city": "New York",
       "username": "Lack of attention",
       "avatar": "https://assets.gq.ru/photos/5d9f6dc38fb7700009bac347/16:9/pass/fc161be536fad79d1dcac83fc94453b2.jpg"
+    },
+    {
+      "id": 38724839,
+      "firstname": "",
+      "lastname": "",
+      "currency": "",
+      "country": "",
+      "city": "",
+      "username": "newUser",
+      "avatar": "https://ae01.alicdn.com/kf/Saef1027b14774fc29d365dbe395b1d7df/Rick-and-Morty-n-20.jpg_Q90.jpg_.webp"
     }
   ],
   "notifications": [
