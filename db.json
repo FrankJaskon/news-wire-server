@@ -7,7 +7,13 @@
       "roles": [
         "ADMIN"
       ],
-      "avatar": "https://teleprogramma.pro/sites/default/files/nodes/node_436422_1653684561.jpg"
+      "avatar": "https://teleprogramma.pro/sites/default/files/nodes/node_436422_1653684561.jpg",
+      "features": {
+        "isAppRedesigned": true
+      },
+      "jsonSettings": {
+        "theme": "light"
+      }
     },
     {
       "id": 2,
@@ -16,6 +22,10 @@
       "roles": [
         "USER"
       ],
+      "jsonSettings": {
+        "theme": "purple",
+        "isFirstVisit": "false"
+      },
       "avatar": "https://kinowar.com/wp-content/uploads/2019/01/%D0%92%D1%83%D0%B4%D0%B8-%D0%A5%D0%B0%D1%80%D1%80%D0%B5%D0%BB%D1%8C%D1%81%D0%BE%D0%BD-%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9-%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2-1.jpg"
     },
     {
@@ -26,6 +36,10 @@
         "USER",
         "MANAGER"
       ],
+      "jsonSettings": {
+        "theme": "dark",
+        "isFirstVisit": "false"
+      },
       "avatar": "https://assets.gq.ru/photos/5d9f6dc38fb7700009bac347/16:9/pass/fc161be536fad79d1dcac83fc94453b2.jpg"
     },
     {
@@ -33,6 +47,19 @@
       "username": "newUser",
       "password": "123",
       "avatar": "https://ae01.alicdn.com/kf/Saef1027b14774fc29d365dbe395b1d7df/Rick-and-Morty-n-20.jpg_Q90.jpg_.webp",
+      "roles": [
+        "USER"
+      ],
+      "jsonSettings": {
+        "theme": "light",
+        "isFirstVisit": "false"
+      }
+    },
+    {
+      "id": 9963726,
+      "username": "testUser",
+      "password": "123",
+      "avatar": "",
       "roles": [
         "USER"
       ]
@@ -76,11 +103,22 @@
       "id": 38724839,
       "firstname": "",
       "lastname": "",
-      "currency": "",
-      "country": "",
+      "currency": "UAH",
+      "country": "USA",
       "city": "",
       "username": "newUser",
       "avatar": "https://ae01.alicdn.com/kf/Saef1027b14774fc29d365dbe395b1d7df/Rick-and-Morty-n-20.jpg_Q90.jpg_.webp"
+    },
+    {
+      "id": 9963726,
+      "firstname": "Test",
+      "lastname": "Test",
+      "currency": "USD",
+      "country": "USA",
+      "city": "New York",
+      "username": "testUser",
+      "avatar": "",
+      "age": "18"
     }
   ],
   "notifications": [
@@ -252,6 +290,19 @@
       "rating": 5,
       "feedback": "It's a great article! I've never seen such one before.",
       "id": 7
+    },
+    {
+      "userId": 1,
+      "articleId": 2,
+      "rating": 4,
+      "id": 9
+    },
+    {
+      "userId": 38724839,
+      "articleId": 8,
+      "rating": 5,
+      "feedback": "FSafasf",
+      "id": 10
     }
   ],
   "profile-ratings": [
@@ -281,17 +332,22 @@
       "profileId": 2,
       "rating": 3,
       "id": 4
+    },
+    {
+      "userId": 38724839,
+      "profileId": 1,
+      "rating": 5,
+      "id": 5
     }
   ],
   "articles": [
     {
       "id": 1,
-      "profileId": 1,
-      "title": "Javascript news",
-      "subtitle": "Що нового у JS у 2022 році?",
-      "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
+      "img": "https://www.freecodecamp.org/news/content/images/2023/04/JavaScript-Blog-Cover.png",
       "views": "1022",
       "createdAt": "26.02.2022",
+      "title": "Javascript news",
+      "subtitle": "Що нового у JS у 2022 році?",
       "type": [
         "IT"
       ],
@@ -323,8 +379,8 @@
         {
           "id": 2,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 3,
@@ -343,8 +399,8 @@
         {
           "id": 8,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 9,
@@ -354,7 +410,8 @@
             "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
           ]
         }
-      ]
+      ],
+      "profileId": 1
     },
     {
       "id": 2,
@@ -430,12 +487,11 @@
     },
     {
       "id": 3,
-      "profileId": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT0dlnWTkuQPZ4OvnBXp6IuRVx7qY5y7GRg&usqp=CAU",
+      "views": "745",
+      "createdAt": "1.05.2023",
       "title": "Complete List of Major Pros & Cons of DevOps Implementation",
       "subtitle": "How to do DevOps when the organization is not?",
-      "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
-      "views": "12",
-      "createdAt": "26.04.2022",
       "type": [
         "ECONOMIC"
       ],
@@ -467,8 +523,8 @@
         {
           "id": 2,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 3,
@@ -487,18 +543,19 @@
         {
           "id": 8,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 9,
           "type": "TEXT",
           "title": "Заголовок цього блоку",
           "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
+            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми. asfsafsafasf"
           ]
         }
-      ]
+      ],
+      "profileId": 1
     },
     {
       "id": 4,
@@ -792,12 +849,11 @@
     },
     {
       "id": 8,
-      "profileId": 1,
-      "title": "Complete List of Major Pros & Cons of DevOps Implementation",
-      "subtitle": "How to do DevOps when the organization is not?",
-      "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
+      "img": "https://img.freepik.com/premium-vector/devops-software-development-methodology-dev-ops-software-vector-stock-illustration_100456-11644.jpg?w=2000",
       "views": "12",
       "createdAt": "26.04.2022",
+      "title": "Complete List of Major Pros & Cons of DevOps Implementation",
+      "subtitle": "How to do DevOps when the organization is not?",
       "type": [
         "ECONOMIC"
       ],
@@ -829,8 +885,8 @@
         {
           "id": 2,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 3,
@@ -849,8 +905,8 @@
         {
           "id": 8,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 9,
@@ -860,7 +916,8 @@
             "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
           ]
         }
-      ]
+      ],
+      "profileId": 1
     },
     {
       "id": 9,
@@ -936,12 +993,11 @@
     },
     {
       "id": 10,
-      "profileId": 1,
-      "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
-      "subtitle": "Introduction of Assembler",
-      "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
+      "img": "https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/1185435975ComputerAssembler.jpg",
       "views": "5022",
       "createdAt": "26.02.2023",
+      "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
+      "subtitle": "Introduction of Assembler",
       "type": [
         "IT",
         "ECONOMIC"
@@ -974,8 +1030,8 @@
         {
           "id": 2,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 3,
@@ -994,8 +1050,8 @@
         {
           "id": 8,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 9,
@@ -1005,7 +1061,8 @@
             "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
           ]
         }
-      ]
+      ],
+      "profileId": 1
     },
     {
       "id": 11,
@@ -1298,12 +1355,11 @@
     },
     {
       "id": 16,
-      "profileId": 1,
-      "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
-      "subtitle": "Introduction of Assembler",
-      "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
+      "img": "https://www.entcengg.com/wp-content/uploads/2015/09/assembler.jpg",
       "views": "5022",
       "createdAt": "26.02.2023",
+      "title": "Commodore's Assemblers: Part 1: MOS Resident Assembler",
+      "subtitle": "Introduction of Assembler",
       "type": [
         "IT",
         "ECONOMIC"
@@ -1336,8 +1392,8 @@
         {
           "id": 2,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 3,
@@ -1356,8 +1412,8 @@
         {
           "id": 8,
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скріншот сайту"
+          "title": "Рисунок 1 - скріншот сайту",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
         },
         {
           "id": 9,
@@ -1367,7 +1423,8 @@
             "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
           ]
         }
-      ]
+      ],
+      "profileId": 1
     },
     {
       "id": 15,
@@ -1441,6 +1498,72 @@
           ]
         }
       ]
+    },
+    {
+      "id": 10912293,
+      "img": "https://jobsoidstorage.blob.core.windows.net/job-images/JobDescription/Image/150-assembler-20200115121258267.png",
+      "views": 0,
+      "createdAt": "23.05.2023",
+      "title": "Two Pass Assemblers: Advantages, Working, Design - Entc Engg",
+      "subtitle": "Assembly Language",
+      "type": [
+        "IT",
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": 16996520,
+          "type": "TEXT",
+          "title": "There is some title",
+          "paragraphs": [
+            "Assembly Language is a low-level programming language that is used for a computer or other programmable devices. There is a very strong correspondence between the assembly language and the architecture’s machine code instructions.\n\nEvery assembly language is system-specific i.e, it is unique for every individual system that it operates on which is exactly opposite to the high-level languages where the language is portable from device to device. but require interpreting or compiling.\n\nAssembly language uses a mnemonic to represent each low-level machine operation or opcode. Some opcodes require one or more OPERANDS as part of the instruction."
+          ]
+        },
+        {
+          "id": 65094377,
+          "type": "TEXT",
+          "title": "Design of two Pass Assemblers",
+          "paragraphs": [
+            "An assembler is a translator, that translates an assembler program into a conventional machine language program. Basically, the assembler goes through the program one line at a time and generates machine code for that instruction. Let us see two-pass assemblers\n\nThen the assembler processes to the next instruction. In this way, the entire machine code program is created\n\nWhat is the difference between one pass and two pass assembler?"
+          ]
+        },
+        {
+          "id": 58767307,
+          "type": "TEXT",
+          "title": "WHAT IS A SINGLE PASS ASSEMBLER?",
+          "paragraphs": [
+            "It is an assembler that generally generates the object code directly in memory for immediate execution. It parses through your source code only once and you are done. Now let us see how a two pass assembler works. Simple, while on its way, if the assembler encounters an undefined label, it puts it into a symbol table along with the address where the undefined symbol’s value has to be placed when the symbol is found in future"
+          ]
+        },
+        {
+          "id": 72463485,
+          "type": "TEXT",
+          "title": "WHY DO WE NEED A TWO-PASS ASSEMBLER?",
+          "paragraphs": [
+            "As explained, the one-pass assembler cannot resolve forward references of data symbols. It requires all data symbols to be defined prior to being used. A two-pass assembler solves this dilemma by devoting one pass to exclusively resolve all (data/label) forward references and then generate object code with no hassles in the next pass. If a data symbol depends on another and this another depends on yet another, the assembler resolved this recursively. If I try explaining even that in this post, the post will become too big. Read this ppt for more details"
+          ]
+        },
+        {
+          "id": 65738346,
+          "type": "IMAGE",
+          "title": "Pass II of the Assembler",
+          "src": "https://www.entcengg.com/wp-content/uploads/2015/09/assembler.png"
+        },
+        {
+          "id": 20644150,
+          "type": "CODE",
+          "code": "00000000101001101000000000000101\nStatus flag :-2\nZero flag :0\n00000000101001101000010000000010"
+        },
+        {
+          "id": 425579,
+          "type": "TEXT",
+          "title": "DIFFERENCE BETWEEN ONE PASS AND TWO PASS ASSEMBLER",
+          "paragraphs": [
+            "One Pass Assembler The one pass assembler passes over the file once, that is it collects all the information in one loop. It Collects labels and also resolves future references There is a major problem of future referencing Assembles assembly code in one pass It creates an intermediate file which acts as an input to two pass assembler\nTwo Pass Assembler As the name suggests two pass assembler does two passes over the source file. In first pass, all it does is looks for label definitions and introduces them in the symbol table (a dynamic table which includes the label name and address for each label in the source program). In the second pass, after the symbol table is complete, it does the actual assembly by translating the operations into machine codes and so on."
+          ]
+        }
+      ],
+      "profileId": 1
     }
   ],
   "comments": [
@@ -1563,6 +1686,12 @@
       "articleId": 6,
       "text": "It still works. Great!",
       "id": 20
+    },
+    {
+      "profileId": 38724839,
+      "articleId": 8,
+      "text": "I wonder if it still works",
+      "id": 21
     }
   ]
 }
