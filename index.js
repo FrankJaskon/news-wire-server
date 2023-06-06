@@ -159,12 +159,19 @@ server.put('/profiles/:id', (req, res) => {
 	}
 })
 
-server.use((req, res, next) => {
+const checkAuthorization = (req, res, next) => {
 	if (!req.headers.authorization) {
 		return res.status(403).json({ message: 'AUTH ERROR' })
 	}
-
 	next()
+}
+
+server.use((req, res, next) => {
+	if (req.method === 'PUT' || req.method === 'POST' || req.method === 'PATCH' || req.method === 'DELETE') {
+		checkAuthorization(req, res, next)
+	} else {
+		next()
+	}
 })
 
 server.use(router)

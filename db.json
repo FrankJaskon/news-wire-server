@@ -26,7 +26,10 @@
         "theme": "purple",
         "isFirstVisit": "false"
       },
-      "avatar": "https://kinowar.com/wp-content/uploads/2019/01/%D0%92%D1%83%D0%B4%D0%B8-%D0%A5%D0%B0%D1%80%D1%80%D0%B5%D0%BB%D1%8C%D1%81%D0%BE%D0%BD-%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9-%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2-1.jpg"
+      "avatar": "https://kinowar.com/wp-content/uploads/2019/01/%D0%92%D1%83%D0%B4%D0%B8-%D0%A5%D0%B0%D1%80%D1%80%D0%B5%D0%BB%D1%8C%D1%81%D0%BE%D0%BD-%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9-%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2-1.jpg",
+      "features": {
+        "isAppRedesigned": false
+      }
     },
     {
       "id": 3,
@@ -53,6 +56,9 @@
       "jsonSettings": {
         "theme": "light",
         "isFirstVisit": "false"
+      },
+      "features": {
+        "isAppRedesigned": true
       }
     },
     {
@@ -74,7 +80,7 @@
       "currency": "UAH",
       "country": "Ukraine",
       "city": "Kyiv",
-      "username": "Your face ",
+      "username": "Frank Jaskon",
       "avatar": "https://teleprogramma.pro/sites/default/files/nodes/node_436422_1653684561.jpg"
     },
     {
@@ -303,6 +309,13 @@
       "rating": 5,
       "feedback": "FSafasf",
       "id": 10
+    },
+    {
+      "userId": 1,
+      "articleId": 14,
+      "rating": 5,
+      "feedback": "Some text",
+      "id": 11
     }
   ],
   "profile-ratings": [
@@ -346,7 +359,7 @@
       "img": "https://www.freecodecamp.org/news/content/images/2023/04/JavaScript-Blog-Cover.png",
       "views": "1022",
       "createdAt": "26.02.2022",
-      "title": "Javascript news",
+      "title": "Javascript news. JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js.",
       "subtitle": "Що нового у JS у 2022 році?",
       "type": [
         "IT"
@@ -1692,6 +1705,18 @@
       "articleId": 8,
       "text": "I wonder if it still works",
       "id": 21
+    },
+    {
+      "profileId": 1,
+      "articleId": 8,
+      "text": "Is it still fine?",
+      "id": 22
+    },
+    {
+      "profileId": 1,
+      "articleId": 8,
+      "text": "No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him. No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+      "id": 23
     }
   ]
 }
