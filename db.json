@@ -23,7 +23,7 @@
         "USER"
       ],
       "jsonSettings": {
-        "theme": "purple",
+        "theme": "light",
         "isFirstVisit": "false"
       },
       "avatar": "https://kinowar.com/wp-content/uploads/2019/01/%D0%92%D1%83%D0%B4%D0%B8-%D0%A5%D0%B0%D1%80%D1%80%D0%B5%D0%BB%D1%8C%D1%81%D0%BE%D0%BD-%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9-%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2-1.jpg",
@@ -54,7 +54,7 @@
         "USER"
       ],
       "jsonSettings": {
-        "theme": "light",
+        "theme": "dark",
         "isFirstVisit": "false"
       },
       "features": {
@@ -273,13 +273,6 @@
     },
     {
       "userId": 1,
-      "articleId": 8,
-      "rating": 3,
-      "feedback": "Я вже бачив такуж саму статтю",
-      "id": 4
-    },
-    {
-      "userId": 1,
       "articleId": 13,
       "rating": 4,
       "id": 5
@@ -302,13 +295,6 @@
       "articleId": 2,
       "rating": 4,
       "id": 9
-    },
-    {
-      "userId": 38724839,
-      "articleId": 8,
-      "rating": 5,
-      "feedback": "FSafasf",
-      "id": 10
     },
     {
       "userId": 1,
@@ -357,8 +343,8 @@
     {
       "id": 1,
       "img": "https://www.freecodecamp.org/news/content/images/2023/04/JavaScript-Blog-Cover.png",
-      "views": "1022",
-      "createdAt": "26.02.2022",
+      "views": 1022,
+      "createdAt": "2022-02-26",
       "title": "Javascript news. JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js.",
       "subtitle": "Що нового у JS у 2022 році?",
       "type": [
@@ -432,8 +418,8 @@
       "title": "What is Python Programming?",
       "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
       "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
-      "views": "2422",
-      "createdAt": "24.02.2022",
+      "views": 2422,
+      "createdAt": "2022-02-23",
       "type": [
         "SCIENCE"
       ],
@@ -501,8 +487,8 @@
     {
       "id": 3,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT0dlnWTkuQPZ4OvnBXp6IuRVx7qY5y7GRg&usqp=CAU",
-      "views": "745",
-      "createdAt": "1.05.2023",
+      "views": 745,
+      "createdAt": "2023-01-03",
       "title": "Complete List of Major Pros & Cons of DevOps Implementation",
       "subtitle": "How to do DevOps when the organization is not?",
       "type": [
@@ -576,8 +562,8 @@
       "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
       "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
       "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
-      "views": "1422",
-      "createdAt": "16.02.2022",
+      "views": 1422,
+      "createdAt": "2023-02-26",
       "type": [
         "IT"
       ],
@@ -648,8 +634,8 @@
       "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
-      "views": "5022",
-      "createdAt": "26.02.2023",
+      "views": 5022,
+      "createdAt": "2021-12-16",
       "type": [
         "IT",
         "ECONOMIC"
@@ -721,8 +707,8 @@
       "title": "Javascript news",
       "subtitle": "Що нового у JS у 2022 році?",
       "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
-      "views": "1022",
-      "createdAt": "26.02.2022",
+      "views": 1022,
+      "createdAt": "2023-05-12",
       "type": [
         "IT"
       ],
@@ -793,8 +779,8 @@
       "title": "What is Python Programming?",
       "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
       "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
-      "views": "2422",
-      "createdAt": "24.02.2022",
+      "views": 2422,
+      "createdAt": "2023-02-26",
       "type": [
         "IT",
         "SCIENCE"
@@ -861,85 +847,13 @@
       ]
     },
     {
-      "id": 8,
-      "img": "https://img.freepik.com/premium-vector/devops-software-development-methodology-dev-ops-software-vector-stock-illustration_100456-11644.jpg?w=2000",
-      "views": "12",
-      "createdAt": "26.04.2022",
-      "title": "Complete List of Major Pros & Cons of DevOps Implementation",
-      "subtitle": "How to do DevOps when the organization is not?",
-      "type": [
-        "ECONOMIC"
-      ],
-      "blocks": [
-        {
-          "id": 1,
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "JavaScript - це мова, програми якою можна виконувати в різних середовищах. У нашому випадку йдеться про браузери і серверну платформу Node.js. Якщо досі ви не написали ні стрічки коду на JS і читаєте цей текст у браузері на стаціонарному комп'ютері це означає, що ви буквально за кілька секунд від своєї першої JavaScript-програми.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": 4,
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": 5,
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "Програма, яку традиційно називають \"Hello, world!\", дуже проста. Вона виводить кудись фразу \"Hello, world!\", або подібне, засобами деякої мови.",
-            "Існують інші способи запуску JS-коду в браузері. Так, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформлюють у вигляді окремих файлів з розширенням .js, які підключають до веб -Сторінок, але програмний код можна включати і безпосередньо в код сторінки.Все це робиться за допомогою тега <script>.Коли браузер виявляє такий код, він виконує його.Деталі про тег script можна подивитися на сайті w3school.com. приклад, що демонструє роботу з веб-сторінками JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити і засобами цього ресурсу (шукайте кнопку Try it Yourself), але ми надійдемо трохи інакше. , і додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": 2,
-          "type": "IMAGE",
-          "title": "Рисунок 1 - скріншот сайту",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
-        },
-        {
-          "id": 3,
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": 7,
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми.",
-            "Існують і інші способи запуску JS-коду в браузері. Наприклад, якщо говорити про звичайне використання програм на JavaScript, вони завантажуються в браузер для забезпечення роботи веб-сторінок. Зазвичай код оформляють у вигляді окремих файлів з розширенням .js, які підключають до веб-сторінок, але програмний код можна включати і безпосередньо в код сторінки. Все це робиться за допомогою тегу <script>. Коли браузер виявляє такий код, він виконує його. Деталі про тег script можна переглянути на сайті w3school.com. Зокрема, розглянемо приклад, що демонструє роботу з веб-сторінкою за допомогою JavaScript, наведений на цьому ресурсі. Цей приклад можна запустити за допомогою цього ресурсу (шукайте кнопку Try it Yourself), але ми зробимо це трохи інакше. А саме, створимо в якомусь текстовому редакторі (наприклад - в VS Code або в Notepad++) новий файл, який назвемо hello.html, та додамо до нього наступний код:"
-          ]
-        },
-        {
-          "id": 8,
-          "type": "IMAGE",
-          "title": "Рисунок 1 - скріншот сайту",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png"
-        },
-        {
-          "id": 9,
-          "type": "TEXT",
-          "title": "Заголовок цього блоку",
-          "paragraphs": [
-            "JavaScript - це мова програмування, на якій можна виконувати програми в різних середовищах. У нашому випадку мова йде про браузери та серверну платформу Node.js. Якщо до цього часу ви не писали ні рядка коду на JS та читаєте цей текст в браузері на стаціонарному комп'ютері, це означає, що ви буквально за декілька секунд від своєї першої JavaScript-програми."
-          ]
-        }
-      ],
-      "profileId": 1
-    },
-    {
       "id": 9,
       "profileId": 2,
       "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
       "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
       "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
-      "views": "1422",
-      "createdAt": "16.02.2022",
+      "views": 1422,
+      "createdAt": "2022-02-26",
       "type": [
         "IT"
       ],
@@ -1007,8 +921,8 @@
     {
       "id": 10,
       "img": "https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/1185435975ComputerAssembler.jpg",
-      "views": "5022",
-      "createdAt": "26.02.2023",
+      "views": 5022,
+      "createdAt": "2022-02-24",
       "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "type": [
@@ -1083,8 +997,8 @@
       "title": "Javascript news",
       "subtitle": "Що нового у JS у 2022 році?",
       "img": "https://pbs.twimg.com/media/FMukdWraQAMAuxa.jpg",
-      "views": "1022",
-      "createdAt": "26.02.2022",
+      "views": 1022,
+      "createdAt": "2023-01-14",
       "type": [
         "IT"
       ],
@@ -1155,8 +1069,8 @@
       "title": "What is Python Programming?",
       "subtitle": "Python Programming: Object-Oriented Programming The ISSA Journal",
       "img": "https://codelearn.io/CodeCamp/CodeCamp/Upload/Course/cf55489ccd434e8c81c61e6fffc9433f.jpg",
-      "views": "2422",
-      "createdAt": "24.02.2022",
+      "views": 2422,
+      "createdAt": "2023-04-26",
       "type": [
         "IT",
         "SCIENCE"
@@ -1228,8 +1142,8 @@
       "title": "Complete List of Major Pros & Cons of DevOps Implementation",
       "subtitle": "How to do DevOps when the organization is not?",
       "img": "https://www.simpliaxis.com/storage/images/article_detail_banner_image_Pros%20and%20Cons%20of%20DevOps1_1658907607.png",
-      "views": "12",
-      "createdAt": "26.04.2022",
+      "views": 12,
+      "createdAt": "2023-05-03",
       "type": [
         "ECONOMIC"
       ],
@@ -1300,8 +1214,8 @@
       "title": "What is C++ & How It Compares to Other C Programming Languages | Simplilearn",
       "subtitle": "What's new in C++ 20: modules, concepts, and coroutines | InfoWorld",
       "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
-      "views": "1422",
-      "createdAt": "16.02.2022",
+      "views": 1422,
+      "createdAt": "2021-08-26",
       "type": [
         "IT"
       ],
@@ -1369,8 +1283,8 @@
     {
       "id": 16,
       "img": "https://www.entcengg.com/wp-content/uploads/2015/09/assembler.jpg",
-      "views": "5022",
-      "createdAt": "26.02.2023",
+      "views": 5022,
+      "createdAt": "2023-02-22",
       "title": "Commodore's Assemblers: Part 1: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "type": [
@@ -1445,8 +1359,8 @@
       "title": "Commodore's Assemblers: Part 2: MOS Resident Assembler",
       "subtitle": "Introduction of Assembler",
       "img": "https://media.geeksforgeeks.org/wp-content/uploads/20190301192844/Screenshot-2019-03-01-at-7.27.50-PM.png",
-      "views": "5022",
-      "createdAt": "26.02.2023",
+      "views": 5022,
+      "createdAt": "2022-08-11",
       "type": [
         "IT",
         "ECONOMIC"
@@ -1516,7 +1430,7 @@
       "id": 10912293,
       "img": "https://jobsoidstorage.blob.core.windows.net/job-images/JobDescription/Image/150-assembler-20200115121258267.png",
       "views": 0,
-      "createdAt": "23.05.2023",
+      "createdAt": "2023-02-27",
       "title": "Two Pass Assemblers: Advantages, Working, Design - Entc Engg",
       "subtitle": "Assembly Language",
       "type": [
@@ -1577,6 +1491,55 @@
         }
       ],
       "profileId": 1
+    },
+    {
+      "id": 85867367,
+      "profileId": 1,
+      "title": "Complete List of Major Pros & Cons of DevOps Implementation",
+      "subtitle": "How to do DevOps when the organization is not?",
+      "img": "https://www.freecodecamp.org/news/content/images/2023/04/JavaScript-Blog-Cover.png",
+      "views": 0,
+      "createdAt": "2023-02-21",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": 35728631,
+          "type": "TEXT",
+          "title": "Обратная совместимость",
+          "paragraphs": [
+            "В JavaScript 1.2 метод splice() возвращал удалённый элемент только если был удалён один элемент (параметр deleteCount равен 1); в противном случае метод возвращал массив с удалёнными элементами. Обратите внимание, что последним браузером, использующим JavaScript 1.2, был Netscape Navigator 4, так что вы можете считать, что splice() всегда возвращает массив."
+          ]
+        },
+        {
+          "id": 12643890,
+          "type": "CODE",
+          "code": "import { Menu, Transition } from '@headlessui/react';\nimport {\n  ChevronDownIcon,\n  ChevronLeftIcon,\n  ChevronRightIcon,\n} from '@heroicons/react/24/solid';\nimport * as React from 'react';\nimport { Fragment, useState } from 'react';\nimport './style.css';\n\nexport default function App() {\n  const [submenuVisible, setSubmenuVisible] = useState(false);\n  return (\n    <div className=\"flex w-full h-screen flex-col items-center justify-center bg-gradient-to-r to-indigo-500 from-purple-500\">\n      <Menu as=\"div\" className=\"relative inline-block text-left\">\n        {({ close, open }) => (\n          <Fragment>\n            <div>\n              <Menu.Button className=\"inline-flex w-full justify-center rounded-md bg-violet-600 px-4 py-2 text-sm font-medium text-white hover:bg-violet-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75\">\n                Options\n                <ChevronDownIcon\n                  className=\"ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100\"\n                  aria-hidden=\"true\"\n                />\n              </Menu.Button>\n            </div>\n            <Menu.Items className=\"absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none\">\n              <div className=\"px-1 py-1 \">\n                {!submenuVisible ? (\n                  <Menu.Item>\n                    {({ active }) => (\n                      <button\n                        className={`${\n                          active ? 'bg-violet-500 text-white' : 'text-gray-900'\n                        } group flex w-full items-center rounded-md px-2 py-2 text-sm flex items-center`}\n                        onClick={(e) => {\n                          e.preventDefault();\n                          setSubmenuVisible((prev) => !prev);\n                        }}\n                      >\n                        Nested Menu\n                        <ChevronRightIcon className=\"h-5 w-5 mr-2\" />\n                      </button>\n                    )}\n                  </Menu.Item>\n                ) : (\n                  <button\n                    className=\"bg-violet-500 text-white group flex w-full items-center rounded-md px-2 py-2 text-sm flex items-center justify-between mb-2 border border-b-gray-100\"\n                    onClick={(e) => {\n                      e.preventDefault();\n                      setSubmenuVisible((prev) => !prev);\n                    }}\n                  >\n                    <ChevronLeftIcon className=\"h-5 w-5 mr-2\" />\n                    Nested menu\n                  </button>\n                )}\n                {submenuVisible && (\n                  <Fragment>\n                    <Menu.Item>\n                      {({ active }) => (\n                        <button\n                          className={`${\n                            active\n                              ? 'bg-violet-500 text-white'\n                              : 'text-gray-900'\n                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}\n                        >\n                          Item 1\n                        </button>\n                      )}\n                    </Menu.Item>\n                    <Menu.Item>\n                      {({ active }) => (\n                        <button\n                          className={`${\n                            active\n                              ? 'bg-violet-500 text-white'\n                              : 'text-gray-900'\n                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}\n                        >\n                          Item 2\n                        </button>\n                      )}\n                    </Menu.Item>\n                  </Fragment>\n                )}\n              </div>\n              {!submenuVisible && (\n                <>\n                  <div className=\"px-1 py-1\">\n                    <Menu.Item>\n                      {({ active }) => (\n                        <button\n                          className={`${\n                            active\n                              ? 'bg-violet-500 text-white'\n                              : 'text-gray-900'\n                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}\n                        >\n                          Normal Item 1\n                        </button>\n                      )}\n                    </Menu.Item>\n                    <Menu.Item>\n                      {({ active }) => (\n                        <button\n                          className={`${\n                            active\n                              ? 'bg-violet-500 text-white'\n                              : 'text-gray-900'\n                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}\n                        >\n                          Normal Item 2\n                        </button>\n                      )}\n                    </Menu.Item>\n                  </div>\n                </>\n              )}\n            </Menu.Items>\n          </Fragment>\n        )}\n      </Menu>\n    </div>\n  );\n}\n"
+        },
+        {
+          "id": 92011086,
+          "type": "TEXT",
+          "title": "deleteCount",
+          "paragraphs": [
+            "Целое число, показывающее количество старых удаляемых из массива элементов. Если deleteCount равен 0, элементы не удаляются. В этом случае вы должны указать как минимум один новый элемент. Если deleteCount больше количества элементов, оставшихся в массиве, начиная с индекса start, то будут удалены все элементы до конца массива."
+          ]
+        },
+        {
+          "id": 97856044,
+          "type": "IMAGE",
+          "title": "Случайная картинка",
+          "src": "data:image/jpeg;base64,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"
+        },
+        {
+          "id": 80879746,
+          "type": "TEXT",
+          "title": "Параметры",
+          "paragraphs": [
+            "Индекс, по которому начинает изменять массив. Если больше длины массива, реальный индекс будет установлен на длину массива. Если отрицателен, указывает индекс элемента с конца."
+          ]
+        }
+      ]
     }
   ],
   "comments": [
@@ -1671,18 +1634,6 @@
       "id": 15
     },
     {
-      "profileId": 3,
-      "articleId": 8,
-      "text": "I must leave here a comment. They've made me do it.",
-      "id": 16
-    },
-    {
-      "profileId": 3,
-      "articleId": 8,
-      "text": "My life is under a danger. Rescue me, please!",
-      "id": 17
-    },
-    {
       "profileId": 1,
       "articleId": 16,
       "text": "I don't understand anything. Why are they all the same?",
@@ -1699,24 +1650,6 @@
       "articleId": 6,
       "text": "It still works. Great!",
       "id": 20
-    },
-    {
-      "profileId": 38724839,
-      "articleId": 8,
-      "text": "I wonder if it still works",
-      "id": 21
-    },
-    {
-      "profileId": 1,
-      "articleId": 8,
-      "text": "Is it still fine?",
-      "id": 22
-    },
-    {
-      "profileId": 1,
-      "articleId": 8,
-      "text": "No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him. No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
-      "id": 23
     }
   ]
 }
