@@ -54,16 +54,25 @@
         "USER"
       ],
       "jsonSettings": {
-        "theme": "dark",
+        "theme": "light",
         "isFirstVisit": "false"
       },
       "features": {
-        "isAppRedesigned": true
+        "isAppRedesigned": false
       }
     },
     {
       "id": 9963726,
       "username": "testUser",
+      "password": "123",
+      "avatar": "",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": 23589970,
+      "username": "testtest",
       "password": "123",
       "avatar": "",
       "roles": [
@@ -125,6 +134,16 @@
       "username": "testUser",
       "avatar": "",
       "age": "18"
+    },
+    {
+      "id": 23589970,
+      "firstname": "",
+      "lastname": "",
+      "currency": "",
+      "country": "",
+      "city": "",
+      "username": "testtest",
+      "avatar": ""
     }
   ],
   "notifications": [

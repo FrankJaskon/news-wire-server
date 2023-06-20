@@ -96,12 +96,31 @@ server.post('/users', (req, res) => {
 			(user) => user.id === uniqId,
 		)
 
-		return res.status(200).json(res.json({
+		return res.status(200).json({
 			id: newUserFromDb.id,
 			username: newUserFromDb.username,
 			avatar: newUserFromDb.avatar,
 			roles: newUserFromDb.roles
-		}))
+		})
+	} catch (e) {
+		console.log(e)
+		return res.status(500).json({ message: e.message })
+	}
+})
+
+server.get('/users/:id', (req, res) => {
+	try {
+		const { id } = req.params
+		const db = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'db.json'), 'UTF-8'))
+		const { users = [] } = db
+		const userFromDb = users.find(
+			(user) => user.id === parseInt(id),
+		)
+
+		if (!userFromDb) {
+			return res.status(404).json({ message: 'User has not been found' })
+		}
+		return res.json(userFromDb)
 	} catch (e) {
 		console.log(e)
 		return res.status(500).json({ message: e.message })
@@ -120,7 +139,7 @@ server.get('/profiles/:id', (req, res) => {
 			return res.json(profile)
 		}
 
-		return res.status(404).json({ message: 'Profile not found' })
+		return res.status(404).json({ message: 'Profile has not been found' })
 	} catch (e) {
 		console.log(e)
 		return res.status(500).json({ message: e.message })
