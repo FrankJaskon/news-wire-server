@@ -69,15 +69,6 @@
       "roles": [
         "USER"
       ]
-    },
-    {
-      "id": 23589970,
-      "username": "testtest",
-      "password": "123",
-      "avatar": "",
-      "roles": [
-        "USER"
-      ]
     }
   ],
   "profiles": [
@@ -134,16 +125,6 @@
       "username": "testUser",
       "avatar": "",
       "age": "18"
-    },
-    {
-      "id": 23589970,
-      "firstname": "",
-      "lastname": "",
-      "currency": "",
-      "country": "",
-      "city": "",
-      "username": "testtest",
-      "avatar": ""
     }
   ],
   "notifications": [
@@ -356,6 +337,12 @@
       "profileId": 1,
       "rating": 5,
       "id": 5
+    },
+    {
+      "userId": 42608534,
+      "profileId": 2,
+      "rating": 5,
+      "id": 6
     }
   ],
   "articles": [
@@ -1669,6 +1656,12 @@
       "articleId": 6,
       "text": "It still works. Great!",
       "id": 20
+    },
+    {
+      "profileId": 1,
+      "articleId": 6,
+      "text": "Some new comment",
+      "id": 22
     }
   ]
 }
