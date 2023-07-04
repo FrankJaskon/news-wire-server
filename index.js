@@ -74,7 +74,7 @@ server.post('/users', (req, res) => {
 			],
 		}
 
-		const emailSymbolIndex = username.split('').findIndex((elem) => elem === '@')
+		const profileUsername = username.split('@')?.[0]
 
 		const newProfile = {
 			id: uniqId,
@@ -84,7 +84,7 @@ server.post('/users', (req, res) => {
 			currency: '',
 			country: '',
 			city: '',
-			username: username.slice(0, emailSymbolIndex !== -1 ? ++emailSymbolIndex : undefined),
+			username: profileUsername,
 			avatar: ''
 		}
 
@@ -159,9 +159,7 @@ server.put('/profiles/:id', (req, res) => {
 		if (profileIndex !== -1) {
 			profiles[profileIndex] = { ...profiles[profileIndex], ...updatedProfile }
 
-			if (updatedProfile.avatar) {
-				users[userIndex] = { ...users[userIndex], avatar: updatedProfile.avatar }
-			}
+			users[userIndex] = { ...users[userIndex], avatar: updatedProfile.avatar }
 
 			fs.writeFileSync(path.resolve(__dirname, 'db.json'), JSON.stringify(db, null, 2), 'UTF-8')
 
