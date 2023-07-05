@@ -58,7 +58,7 @@
         "isFirstVisit": "false"
       },
       "features": {
-        "isAppRedesigned": false
+        "isAppRedesigned": true
       }
     },
     {
@@ -1577,6 +1577,62 @@
           "paragraphs": [
             "On May 9, in Game 4 of the Western Conference semifinals against the Memphis Grizzlies, Curry became the first player in NBA history to make 500 career playoff threes.[213] During the Western Conference Finals against the Dallas Mavericks, he averaged 23.8 points, 6.6 rebounds and 7.4 assists per game. After the Warriors won the series in five games, Curry was named the unanimous and inaugural winner of the Western Conference Finals MVP award.[214] On June 10, in Game 4 of the NBA Finals, Curry logged 43 points, 10 rebounds, and four assists in a 107–97 victory over the Boston Celtics to even the series at 2–2. He became the first player in NBA history to make 5+ threes in four consecutive Finals games. Curry (at age 34 years, 88 days) also became the second-oldest player in NBA Finals history to record a 40-point, 10-rebound game behind only LeBron James in 2020 (at age 35 years, 284 days).[215] In Game 5 of the Finals, Curry passed Boston Celtics legend John Havlicek for 10th on the all-time Finals assists list.[216] In Game 6 of the Finals, Curry scored 34 points along with seven rebounds, seven assists, and led the Warriors to a 103–90 victory over the Celtics. He was named the NBA Finals MVP unanimously after averaging 31.2 points, 6.0 rebounds, 5.0 assists, and 2.0 steals per game.[217] Curry was also the final recipient of the award named in honor of Bill Russell before the basketball legend’s death in July 2022.[218][219]"
           ]
+        }
+      ]
+    },
+    {
+      "id": 90699662,
+      "profileId": 1,
+      "title": "Can dietary supplements help treat depression? The latest research",
+      "subtitle": "Depression is a common mental health disorder that affects many people worldwide. Effective treatments are available, but they do not work for everyone, so some people look to dietary supplements to try and alleviate symptoms. But do they have any effect? Medical News Today looked at the latest research and asked experts whether supplements might be of benefit to people with depression.",
+      "img": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2023/06/supplements_depression_GettyImages1485249390_Header-1024x575.jpg",
+      "views": 0,
+      "createdAt": "2023-07-05",
+      "type": [
+        "HEALTH"
+      ],
+      "blocks": [
+        {
+          "id": 5960308,
+          "type": "TEXT",
+          "paragraphs": [
+            "What does the latest research say about using supplements to help treat depression? Image credit: Kseniya Ovchinnikova/Getty Images."
+          ]
+        },
+        {
+          "id": 82585681,
+          "type": "TEXT",
+          "title": "Depression",
+          "paragraphs": [
+            "Depression is a lasting feeling of sadness, emptiness, or an inability to feel pleasure that usually happens for no obvious reason. According to the World Health OrganizationTrusted Source (WHO), it is different from regular mood changes, it lasts for a long time, and it may interfere with a person’s normal functioning."
+          ]
+        },
+        {
+          "id": 71771089,
+          "type": "TEXT",
+          "paragraphs": [
+            "According to the WHO, global estimates suggest that 3,8% of people experience depression. Women are more likely than men to experience depressive episodes, and the risk of depression is slightly higher in those over 60 years old.\n\nThe number of people with depression has been steadily increasing: In the United States, in 2020, almost 1 in 10Trusted Source people experienced depression."
+          ]
+        },
+        {
+          "id": 40222806,
+          "type": "TEXT",
+          "paragraphs": [
+            "Major depressive disorderTrusted Source (MDD), in which a person experiences depressive episodes, is one of the most common mood disorders. Depressive episodesTrusted Source in major depressive disorder each last at least 2 weeks, with symptoms that cause “clinically significant distress or impairment in social, occupational, or other important areas of functioning.”"
+          ]
+        },
+        {
+          "id": 87918454,
+          "type": "TEXT",
+          "title": "Suicide prevention",
+          "paragraphs": [
+            "If you know someone at immediate risk of self-harm, suicide, or hurting another person:\n\nAsk the tough question: “Are you considering suicide?”\nListen to the person without judgment.\nCall 911 or the local emergency number, or text TALK to 741741 to communicate with a trained crisis counselor.\nStay with the person until professional help arrives.\nTry to remove any weapons, medications, or other potentially harmful objects.\nIf you or someone you know is having thoughts of suicide, a prevention hotline can help. The 988 Suicide and Crisis Lifeline is available 24 hours a day at 988. During a crisis, people who are hard of hearing can use their preferred relay service or dial 711 then 988."
+          ]
+        },
+        {
+          "id": 98933628,
+          "type": "VIDEO",
+          "src": "https://youtu.be/lQhpetkwWnM"
         }
       ]
     }
