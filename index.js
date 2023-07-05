@@ -1,6 +1,7 @@
 const fs = require('fs')
 const jsonServer = require('json-server')
 const path = require('path')
+const cors = require('cors')
 
 const server = jsonServer.create()
 
@@ -192,6 +193,17 @@ server.use((req, res, next) => {
 })
 
 server.use(router)
+
+server.use((req, res, next) => {
+	res.header('Cache-Control', 'no-store')
+	next()
+})
+
+server.use(cors({
+	origin: 'https://news-wire.netlify.app',
+	methods: 'GET, POST, PUT, PATCH, DELETE, OPTIONS',
+	allowedHeaders: 'Content-Type'
+}))
 
 server.listen(8000, () => {
 	console.log('server is running on 8000 port')

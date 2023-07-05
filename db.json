@@ -252,6 +252,18 @@
       "articleId": 6,
       "rating": 5,
       "id": 12
+    },
+    {
+      "userId": 1,
+      "articleId": 64375221,
+      "rating": 5,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "articleId": 77411318,
+      "rating": 5,
+      "id": 14
     }
   ],
   "profile-ratings": [
